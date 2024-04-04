@@ -1,0 +1,17 @@
+/*//////////////// SETUP //////////////////*/
+@import './index.css';
+
+.logo{
+  @apply m-4;
+}
+
+/* NAVBAR */
+.active{
+  @apply border-2 border-[var(--coral)] rounded-md px-4 py-2;
+}
+.navbar{
+  @apply w-full flex flex-col md:flex-row justify-center md:justify-end items-center gap-4 md:gap-20 -ml-0 md:-ml-24 my-20 font-archivoBlack text-[var(--yellow)];
+}
+.nav-item{
+  @apply hover:text-[var(--bright-coral)];
+}

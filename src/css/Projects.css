@@ -1,0 +1,19 @@
+@import '../index.css';
+
+.projects{
+  @apply my-20 relative;
+}
+
+.headingProject{
+  @apply absolute left-2 md:left-4 lg:left-72 -top-12 text-xl md:text-2xl font-gothicA1 text-[--yellow] -rotate-12 animate-pulse;
+}
+
+.swiper {
+  @apply w-96 md:w-[40em] lg:w-full h-auto;
+}
+.swiper-slide {
+  @apply flex justify-center items-center text-center;
+}
+.swiper-slide img {
+  @apply w-[48em] block object-cover;
+}
